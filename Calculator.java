@@ -5,7 +5,7 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Здравствуйте, наш калькулятор выполняет операции: сложения(+), вычитания(-), умножения(*) и деления(/)\nОстальные операции будут считаться ошибкой!");
-        System.out.print("Используйте только арабские, либо только Римские цифры!\nВведите выражение в формате a + b(с пробелами): ");
+        System.out.print("Используйте только арабские, либо только Римские цифры! В диапазоне 1 - 10\nВведите выражение в формате a + b(с пробелами): ");
         String input = scanner.nextLine();
         String[] arrayInput = input.split(" ");
         int a;
