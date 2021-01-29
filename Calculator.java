@@ -28,7 +28,7 @@ public class Calculator {
             b = ArabicToRomanAndBack.romanToArabic(arrayInput[2]);
         }
 
-        if ((a > 10 || b > 10) && (a < 1 || b < 1) ) {
+        if (a > 10 || b > 10 || a < 1 || b < 1) {
             throw new RuntimeException("Числа превышают необходимый диапазон");
         }
         if (aIsRoman == bIsRoman) {
