@@ -1,6 +1,6 @@
 public class Calculate {
-    public static int calculate(int a, int b, String input) {
-        switch (input) {
+    public static int calculate(int a, int b, String sign) {
+        switch (sign) {
             case "+":
                 return a + b;
             case "-":
